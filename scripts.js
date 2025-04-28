@@ -1,6 +1,10 @@
-function handleLogin() {
+function handleLogin(event) {
     const password = document.getElementById('password').value;
-
-    window.location.replace("https://stackoverflow.com");
+    if (password === "574.5875") {
+        window.location.replace("https://stackoverflow.com")
+        event.preventDefault();
+        return;
+    }
+    alert("Incorrect password. Please try again.");
     event.preventDefault();
 }

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>thisisnotanAI</title>
     </head>
     <body>
         <script src="scripts.js"></script>
-        <form id="loginForm" onsubmit="handleLogin()">
+        <form class="loginForm" onsubmit="handleLogin()">
+            <img src="thedino.png" alt="Logo" class="logo"><br><br>
             <label for="password">Password:</label>
             <input type="text" id="password" name="password" required><br><br>
             <button type="submit">Login</button>

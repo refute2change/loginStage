@@ -8,3 +8,9 @@ function handleLogin(event) {
     alert("Incorrect password. Please try again.");
     event.preventDefault();
 }
+
+function uponOpen(event)
+{
+    window.location.replace("adjustments.html");
+    event.preventDefault();
+}
